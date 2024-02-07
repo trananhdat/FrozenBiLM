@@ -271,5 +271,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.save_dir:
         args.save_dir = os.path.join(args.presave_dir, args.save_dir)
-    args.model_name = os.path.join(os.environ["TRANSFORMERS_CACHE"], args.model_name)
+    args.model_name = os.path.join("/kaggle/input/checkpoint/checkpoints", args.model_name)
     main(args)
