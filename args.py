@@ -307,8 +307,8 @@ def get_args_parser():
     )
     parser.add_argument(
         "--model_name",
-        # default="deberta-v2-xlarge",
-        default="microsoft-deberta-v2-xlarge_fold0_best.pth",
+        default="deberta-v2-xlarge",
+        # default="microsoft-deberta-v2-xlarge_fold0_best.pth",
         choices=(
             "bert-base-uncased",
             "bert-large-uncased",
