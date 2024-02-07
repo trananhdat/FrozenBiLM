@@ -43,7 +43,7 @@ def build_model(args):
                 n_ans=args.n_ans,
                 freeze_last=args.freeze_last,
                 pretrained_model_name_or_path=args.model_name,
-                local_files_only=True,
+                local_files_only=False,
             )
     elif "bert" in args.model_name:
         assert (
