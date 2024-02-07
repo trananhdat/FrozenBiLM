@@ -1,10 +1,10 @@
 import argparse
 import os
 
-PRESAVE_DIR = ""
-MODEL_DIR = ""
-DATA_DIR = ""
-SSD_DIR = ""
+PRESAVE_DIR = "/kaggle/working/presave_dir"
+MODEL_DIR = "/kaggle/input/checkpoint"
+DATA_DIR = "/kaggle/input/data-frozenbilm/data"
+SSD_DIR = "/kaggle/working/ssd_dir"
 name2folder = {
     "webvid": "WebVid",
     "lsmdc": "LSMDC",
